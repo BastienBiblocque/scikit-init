@@ -6,18 +6,18 @@ import matplotlib.pyplot as plt
 chemin_fichier = "./data_sets/bodyPerformance.csv"
 
 data = pd.read_csv(chemin_fichier)
-tableau_assoc = data.to_dict(orient='records')
+# tableau_assoc = data.to_dict(orient='records')
 
 
 # ages = [personne['age'] for personne in tableau_assoc]
 # age_moyen = sum(ages) / len(ages)
-#
+
 # print(f"L'âge moyen est : {age_moyen:.2f} ans")
 
 
 # variables_physiques = ['height_cm', 'weight_kg', 'body fat_%', 'gripForce', 'sit and bend forward_cm', 'sit-ups counts', 'broad jump_cm']
-
-# Calculer la matrice de corrélation
+#
+# # Calculer la matrice de corrélation
 # correlation_matrix = data[variables_physiques].corr()
 
 # # Afficher la matrice de corrélation avec seaborn
